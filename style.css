@@ -1,0 +1,956 @@
+*
+{
+    font-family: 'poppins',sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+body
+{
+    background-image: linear-gradient(to bottom right,#fff,#71dd3f);
+    
+}
+
+.form-container
+{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40%;
+    
+    /*background-image: linear-gradient(to bottom right,#18e7ee,#66e066);*/
+    /*background-image: linear-gradient(to bottom right,#fff,#3fcbdd);*/
+    
+}
+
+.form-container form
+{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(70, 68, 68, 0.199);
+    text-align: center;
+    background: #fff;
+    width: 475px;
+    margin-top: -90px;
+    
+}
+.form-container form input,
+.form-container form select
+{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+    
+}
+
+.form-container form textarea
+{
+    overflow:visible;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+    
+}
+
+.form-container form h3
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+.form-container form .form-btn
+{
+    background: #4ceb6c;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.form-container form .form-btn:hover
+{
+    background: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.form-container form p
+{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.form-container form .error-msg
+{
+    margin: 10px 0;
+    display: block;
+    background: #11812d;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.form-container3 .msg
+{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.form-container3 .msg .error-msg
+{
+    background-color:transparent;
+    color: #11812d;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 10px 10px 0px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px 50px 5px 0px;
+    text-align: center;
+}
+
+.form-container form p a
+{
+    color: #11812d;
+}
+
+.form-container form p a:hover
+{
+    color: red;
+}
+
+button
+{
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    background-color:#ffffff ;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 32px;
+    margin-top:-6px;
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+}
+
+button:hover
+{
+    background-color: chartreuse;
+    color:rgb(5, 5, 5);
+    transition: 0.5s;
+}
+.header
+{
+    width: 100%;
+    padding: 15px 30px;
+    background:#11812d; 
+    position: absolute;
+    z-index: 999;
+}
+
+.form-container form p
+{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.laptop  
+{
+    background-image: linear-gradient(to bottom right,#fff,#11812d);
+    padding-top: 200px;
+}
+
+.laptop .titlepage p
+{
+    color: #000;
+    line-height: 50px;
+}
+.laptop .titlepage h2
+{
+    line-height: 30px;
+    color: #000;
+}
+
+.laptop .titlepage a
+{
+    background-color: #11812d;
+}
+
+.laptop .titlepage a:hover
+{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.about .container .row 
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about_img figure img
+{
+    margin-top: -95px;
+    width: 100%;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link
+{
+    font-size: 20px;
+}
+
+.prd
+{
+    width: auto;
+    height: 130rem;
+    padding-top: 150px;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,#18e7ee,#11812d);
+}
+
+.prd1
+{
+    width: auto;
+    height: 100vh;
+    padding-top: 150px;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,#18e7ee,#11812d);
+}
+
+.prd h2
+{
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.prd2
+{
+    width: auto;
+    height: fit-content;
+    
+    justify-content: center;
+    background-color: transparent;
+}
+
+.prd1 h2
+{
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-container2
+{    
+    display: flex;
+    padding: 30px;
+    padding-bottom: 200px;
+    
+   
+}
+
+.form-container2 form
+{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    text-align: center;
+    background: #fff;
+    width: 450px;
+    
+}
+
+.form-container2 form input,
+.form-container2 form select,
+.form-container form option
+{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+    
+    
+}
+
+.form-container2 form textarea
+{
+    overflow:visible;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+    
+}
+
+.form-container2 form .form-btn
+{
+    background: #4ceb71;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.form-container2 form .form-btn:hover
+{
+    background: #000;
+    color: #fff;
+    transition: 0.5s;
+    
+}
+
+.form-container2 .cat_1
+{
+    margin-left: 425px;
+}
+
+footer
+{
+    margin-top: 0px;
+
+}
+
+.prod_display
+{
+    width:800px;
+    height:0em;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+
+.prod_display .prod_table
+{
+    width: 106%;
+    height: auto;
+    text-align: center;
+    margin-left: 15px;
+    
+}
+
+.prod_display .prod_table th
+{
+    font-size: 17px;
+    color: #11812d;
+    margin-left: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+.prod_display .prod_table td
+{
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.prod_display .prod_table .table_bottom
+{
+    font-size: 15px;
+    background-color:whitesmoke;
+    color:#000;
+    height: 50px;
+}
+
+
+.prod_display .prod_table form
+{
+    width:60px;
+    background-color: transparent;
+    box-shadow: none;
+    padding-left: 0px;
+    margin-top: auto;
+} 
+
+.prod_display .prod_table input[type="number"]
+{
+    border:1px solid black;
+    padding:1px 2px;
+    font-size: 20px;
+    color:black;
+    width: 60px;
+    height: 30px;
+    /*margin-top: 215%;*/
+    
+ }
+
+ .prod_display .prod_table input[type="submit"]
+ {
+    padding:1px 2px;
+    border: 1px solid #000;
+    cursor: pointer;
+    width: 60px;
+    font-size: 15px;
+    background-color: rgb(0, 255, 26);
+    color:#000;
+ }
+ .prod_display .prod_table input[type="submit"]:hover
+ {
+    padding:1px 2px;
+    cursor: pointer;
+    width: 60px;
+    font-size: 15px;
+    background-color: rgb(0, 255, 26);
+    color:#ffffff;
+ }
+
+.prod_display .prod_table .edit_btn
+{
+    background-color: #11812d;
+    color: #000;
+    font-weight: bold;
+    padding: 2px 8px;
+    font-size: 15px;
+    border: 1px groove #000;
+    border-radius: 3px;
+}
+
+.prod_display .prod_table .edit_btn:hover
+{
+    background-color: #11812d;
+    color: #fff;
+    font-size: 15px;
+}
+
+.prod_display .prod_table .del_btn
+{
+    background-color: rgb(247, 93, 93);
+    color: #000;
+    padding: 2px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px groove #000;
+    border-radius: 3px;
+}
+
+.prod_display .prod_table .del_btn:hover
+{
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+}
+
+.prod_display .prod_table2
+{
+    width: 730px;
+    text-align: center;
+    
+}
+
+.prod_display .prod_table2 .edit_btn2
+{
+    background-color: #14ee14;
+    margin: 10px;
+    color: #000;
+    font-weight: bold;
+    padding: 3px 5px;
+    font-size: 15px;
+    border: 1px groove #112b81;
+    border-radius: 5px;
+}
+
+.prod_display .prod_table2 .edit_btn2:hover
+{
+    background-color: #204de0;
+    color: #ffffff;
+    font-size: 15px;
+}
+.prod_display .prod_table2 .del_btn2:hover
+{
+    background-color: #e42727;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.prod_display .prod_table2 .del_btn2
+{
+    background-color: rgb(224, 205, 30);
+    color: #000;
+    margin-left: 5px;
+    padding: 3px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px groove #112b81;
+    border-radius: 5px;
+}
+
+.prod_display .cart-btn a
+{
+    background-color: salmon;
+    color: #000;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 170px;
+    border:1px solid #000;
+    border-radius: 3px;
+
+}
+.prod_display .cart-btn a:hover
+{
+    background-color: #112b81;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 170px;
+    border:1px solid #000066;
+    border-radius: 3px;
+
+}
+
+/*.prod_display .cart-btn a
+{
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.prod_display .cart-btn a:hover
+{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+
+}*/
+.dropbtn
+{
+    background-color:transparent;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    margin-top: -13px;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+    padding: 5px 0px;
+    font-weight: 400;
+}
+  
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 130px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a 
+{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover 
+{
+    background-color: lightgrey;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+  
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+  
+.dropdown:hover .dropbtn 
+{
+    background-color: transparent;
+    color:chartreuse ;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-item .active
+{
+    color:#51fe44 ;
+}
+
+.prod_display .feedb_table
+{
+    width:800px;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+
+.prod_display .feedb_table th
+{
+    font-size: 17px;
+    color: #112b81;
+    background-color: #fff;
+}
+
+.prod_display .feedb_table td
+{
+    font-size: 20px;
+    line-height: 50px;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.prod_display .feedb_table .del_btn
+{
+    background-color: rgb(247, 93, 93);
+    color: black;
+    padding: 3px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 6px;
+    margin-right: 5px;
+    border: 1px groove #112b81;
+    border-radius: 5px;
+}
+
+.prod_display .feedb_table .del_btn:hover
+{
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+}
+
+.form-container .product_container 
+{
+    border: 1px groove transparent;
+    color: #000;
+    margin: 0px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    /*background-color: rgba(108, 118, 122, 0.514);*/
+    background-color: rgba(255, 255, 255, 0.651);
+    text-align: center;
+    border-radius: 8px;
+    box-shadow:10px 5px 10px rgba(17, 15, 15, 0.384) ;
+    display:block;
+}
+
+
+.form-container .product_container .buy_btn
+{
+    width: 100px;
+    height: auto;
+    background-color: orange;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.form-container .product_container .buy_btn:hover
+{
+    width: 100px;
+    height: auto;
+    background-color: #112b81;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.form-container3
+{
+    min-height: 100vh;
+    display: flex;
+    padding: 250px 200px 200px 300px;
+    /*background-color:rgb(63, 203, 221);*/
+    background-image: linear-gradient(to bottom right,#fff,#3fcbdd);
+    
+    
+}
+
+.feedback-container2
+{
+    height: 130vh;
+    display: flex;
+    padding: 200px 200px 200px 300px;
+    background-image: linear-gradient(to bottom right,#18e7ee,#66e066);
+    background-size:auto;
+}
+
+
+.form-container3 input
+{
+    width:120px; 
+    height: 30px;
+    margin-left: 0px;
+    margin-top: 20px ; 
+    background-color:#230ee2 ;
+    color:#fff ;
+    font-size:12px ; 
+    font-weight:bolder ; 
+    border-radius:1px;
+    border-color: transparent;
+}
+
+.form-container3 input:hover
+{
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.form-container3 span
+{
+    color:#000066 ; 
+    font-size: large ;
+    line-height: 30px;
+}
+
+.form-container .prd2 .container
+{
+    padding:0 20px;
+    margin:0 auto;
+    max-width: 1200px;
+    padding-bottom: 40px;
+} 
+
+.form-container .prd2 .container .user-profile
+{
+    padding:20px;
+    text-align: center;
+    border:1px solid #000;
+    background-color: #fff;
+    box-shadow:0 2px 10px rgba(70, 68, 68, 0.199) ;
+    border-radius: 5px;
+    margin:20px auto;
+    max-width: 500px;
+}
+ 
+.form-container .prd2 .container .user-profile p
+{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color:orangered;
+}
+ 
+.form-container .prd2 .container .user-profile p span
+{
+    color: #000;
+}
+
+.form-container .prd2 .container .user-profile .flex
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+    align-items: flex-end;
+}
+
+.form-container .prd2 .container .user-profile .edit_btn
+{
+    background-color: orange;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 2px 15px;
+}
+
+.form-container .prd2 .container .user-profile .edit_btn:hover
+{
+    background-color: #112b81;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 2px 15px;
+}
+
+.form-container .prd2 .container .user-profile .del_btn
+{
+    background-color: rgb(247, 93, 93);
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 2px 15px;
+}
+
+.form-container .prd2 .container .user-profile .del_btn:hover
+{
+    background-color: red;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 2px 15px;
+}
+
+.order-message-container
+{
+    position:fixed;
+    top:0; left:0; 
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1100;
+    background-color: lightgrey;
+    width: 100%;
+    padding-top: 10%;
+
+}
+ 
+
+.order-message-container::-webkit-scrollbar{
+    width: 5px;
+ }
+ 
+ .order-message-container::-webkit-scrollbar-track{
+    background-color: var(--dark-bg);
+ }
+ 
+ .order-message-container::-webkit-scrollbar-thumb{
+    background-color: gray;
+ }
+
+.order-message-container .message-container
+{
+    width: 500px;
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding:2rem;
+    text-align: center;
+}
+.order-message-container .message-container h3
+{
+    font-size: 20px;
+   color:rgb(14, 69, 250);
+}
+.order-message-container .message-container .order-detail
+{
+    background-color: #fff;
+   border-radius: .5rem;
+   padding:1rem;
+   margin:1rem 0;
+}
+ 
+.order-message-container .message-container .order-detail span
+{
+    background-color: #fff;
+   border-radius: .5rem;
+   color:#000;
+   font-size: 20px;
+   display: inline-block;
+}
+ 
+.order-message-container .message-container .order-detail span.total
+{
+    display: block;
+   /*background: rgb(29, 86, 192);*/
+   font-size: 25px;
+   color:blue;
+   text-decoration: underline;
+   margin-top: 20px;
+}
+ 
+
+ 
+.order-message-container .message-container .customer-details p
+{
+    padding:1rem 0;
+    font-size: 20px;
+    color:#000;
+
+}
+ 
+.order-message-container .message-container .customer-details p span
+{
+    color:orangered;
+    padding:0 .5rem;
+    text-transform: none;
+}
+
+
+.order-message-container .message-container .btn
+{
+    width:200px;
+    background-color: #000;
+    color:white;
+}
+
+.order-message-container .message-container .btn:hover
+{
+    width:200px;
+    background-color: rgb(245, 133, 68);
+    color:#000;
+}
+
+ .display-order
+ {
+    width: 450px;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: -8px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+ }
+ 
+ .display-order span
+ {  
+    font-size: 18px;
+    color: orangered;
+    padding-bottom: 10px;
+    
+ }
+ 
+ .display-order span.grand-total
+ {
+    background-color: rgb(247, 131, 131);
+    color: #000;
+    margin: 10px;
+    font-size: 18px;
+    padding: 3px 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+ }
+ 
